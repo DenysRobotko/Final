@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{367683ED-2AFE-4128-AB4F-7E81B9C03C86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{6561831B-1CF7-4C6D-9DA2-8B0156519392}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{B86732C3-FD98-4E2A-A952-F221955852E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseCode", "BaseCode", "{A0308FB3-E882-4AA4-8F31-7C139E576DB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{960F6FA9-66E6-4F1D-9F36-D16FD98BF0CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{2CBFA6B7-F5EF-43F8-BCEF-816C2BACD638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final.Feature.Components", "src\Feature\Components\code\Final.Feature.Components.csproj", "{E393A2D7-930D-4418-8FF0-BC5A1E65991A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final.Founadation.BaseCode", "src\Foundation\BaseCode\code\Final.Founadation.BaseCode.csproj", "{F43F9878-D7D9-4B8F-B3A9-E4FCFA7CB4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final.Project.Website", "src\Project\Website\code\Final.Project.Website.csproj", "{9805F15F-28A3-4502-880E-AD4F2207A7A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E393A2D7-930D-4418-8FF0-BC5A1E65991A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E393A2D7-930D-4418-8FF0-BC5A1E65991A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E393A2D7-930D-4418-8FF0-BC5A1E65991A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E393A2D7-930D-4418-8FF0-BC5A1E65991A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43F9878-D7D9-4B8F-B3A9-E4FCFA7CB4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43F9878-D7D9-4B8F-B3A9-E4FCFA7CB4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43F9878-D7D9-4B8F-B3A9-E4FCFA7CB4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43F9878-D7D9-4B8F-B3A9-E4FCFA7CB4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9805F15F-28A3-4502-880E-AD4F2207A7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9805F15F-28A3-4502-880E-AD4F2207A7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9805F15F-28A3-4502-880E-AD4F2207A7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9805F15F-28A3-4502-880E-AD4F2207A7A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0308FB3-E882-4AA4-8F31-7C139E576DB7} = {367683ED-2AFE-4128-AB4F-7E81B9C03C86}
+		{960F6FA9-66E6-4F1D-9F36-D16FD98BF0CB} = {6561831B-1CF7-4C6D-9DA2-8B0156519392}
+		{2CBFA6B7-F5EF-43F8-BCEF-816C2BACD638} = {B86732C3-FD98-4E2A-A952-F221955852E3}
+		{E393A2D7-930D-4418-8FF0-BC5A1E65991A} = {960F6FA9-66E6-4F1D-9F36-D16FD98BF0CB}
+		{F43F9878-D7D9-4B8F-B3A9-E4FCFA7CB4DA} = {A0308FB3-E882-4AA4-8F31-7C139E576DB7}
+		{9805F15F-28A3-4502-880E-AD4F2207A7A5} = {2CBFA6B7-F5EF-43F8-BCEF-816C2BACD638}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {B64CC95D-9F18-46F8-B92B-16EAFB950C77}
+	EndGlobalSection
+EndGlobal

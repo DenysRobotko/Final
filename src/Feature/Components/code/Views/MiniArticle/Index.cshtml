@@ -1,0 +1,15 @@
+﻿<div class="tm-section tm-container-inner">
+    <div class="row">
+        <div class="col-md-6">
+            <figure class="tm-description-figure">
+                @Html.Sitecore().Field(Final.Feature.Components.Templates.MiniArticle.Fields.Image.ToString())
+            </figure>
+        </div>
+        <div class="col-md-6">
+            <div class="tm-description-box">
+                <h4 class="tm-gallery-title">@Html.Sitecore().Field(Final.Feature.Components.Templates.MiniArticle.Fields.Title.ToString())</h4>
+                <p class="tm-mb-45">@Html.Sitecore().Field(Final.Feature.Components.Templates.MiniArticle.Fields.Description.ToString())</p>
+            </div>
+        </div>
+    </div>
+</div>

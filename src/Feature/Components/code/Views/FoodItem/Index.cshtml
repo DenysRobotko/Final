@@ -1,0 +1,8 @@
+﻿<figure>
+    @Html.Sitecore().Field(Final.Feature.Components.Templates.FoodItem.Fields.FoodPhoto.ToString())
+    <figcaption>
+        <h4 class="tm-gallery-title">@Html.Sitecore().Field(Final.Feature.Components.Templates.FoodItem.Fields.Title.ToString())</h4>
+        <p class="tm-gallery-description">@Html.Sitecore().Field(Final.Feature.Components.Templates.FoodItem.Fields.Description.ToString())</p>
+        <p class="tm-gallery-price">@Html.Sitecore().Field(Final.Feature.Components.Templates.FoodItem.Fields.Price.ToString())</p>
+    </figcaption>
+</figure>
