@@ -7,4 +7,4 @@ For the Header and Footer renderings were chosen cache options.
 Search was developed to find "Mini Article" items. Search was implemented using SOLR.
 Event for "item:saved" was modified to log some message.
 Processor "Siteresolver" was modified to log some message.
-For the project were used HELIX architecture.
+For the project was used HELIX architecture.
